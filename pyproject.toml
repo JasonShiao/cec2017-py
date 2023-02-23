@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cec2017-py"
+version = "1.0.0"
+description = "CEC 2017 single objective optimization suite"
+authors = ["Duncan Tilley"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cec2017"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
